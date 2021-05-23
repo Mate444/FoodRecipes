@@ -1,0 +1,33 @@
+.all{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+.filterTypeLabel{
+    background-color: rgb(33, 145, 33);
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 2px 8px 6px;
+    font: small-caps;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-color: red;
+    border-radius:10px;
+    transition-duration: 0.5s;
+}
+.filterTypeLabel:hover{
+    background-color: rgb(105, 121, 109);
+    color: whitesmoke;
+}
+.labelSort{
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    padding: 5px;
+    font: small-caps;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(33, 145, 33) ;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.sort{
+    padding: 10px;
+}

@@ -1,0 +1,104 @@
+.background{
+    background-color: rgb(222, 240, 64);
+}
+.all{
+    display: flex;
+    flex-direction: column;
+}
+.image{
+    max-width: 600px;
+    border-radius: 2px;
+    border-width: 2px;
+    border-style:solid;
+    margin-bottom: 10px;
+}
+.title{
+    align-self:center;
+    text-align: center;
+    font-family: 'Oswald', Helvetica, sans-serif;
+    margin: 0px;
+    line-height: 1.25; 
+    text-shadow: 
+    -1px -1px 0 rgb(30, 163, 59),
+    -2px -2px 0 rgb(30, 163, 59),
+    -3px -3px 0 rgb(30, 163, 59);
+    font-size: 40px; 
+    font-weight: absolute;
+    background-color:transparent;
+    color:#3D9970;
+    border-width: 10px;
+    transition: 0.3s;
+}
+.diets{
+    text-transform: capitalize;
+}
+.name{
+    color: black; font-family: 'Lato', sans-serif; 
+    font-size: 54px;
+    font-weight:
+    300; line-height: 
+    58px; 
+    margin-bottom: 10px;
+}
+.instructions{
+    color: #000000; 
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; line-height: 26px; 
+    text-indent: 30px; 
+    margin: 0;
+}
+.description{
+    color: #000000; 
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; line-height: 26px; 
+    text-indent: 30px; 
+    margin: 0;
+}
+.summary{
+    color: #000000; 
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; line-height: 26px; 
+    text-indent: 30px; 
+    margin: 0;
+}
+.instHeader{
+    color: #000000; 
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px; line-height: 26px; 
+    text-indent: 30px; 
+    margin: 10px 0px 20px;
+}
+.homeButton{
+    background-color: rgb(33, 145, 33);
+    transition-duration: 0.4s;
+    border: none;
+    align-self: flex-start;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.homeButton:hover{
+    background-color: rgb(105, 121, 109);
+    color:white;
+}
+.diets{
+    font-size: 30px;
+     letter-spacing: -1px; 
+     color: #292111;
+      text-transform: uppercase;
+     text-shadow: 1px 1px 0 #000;
+      margin: 10px 0 24px;
+       text-align: center;
+        line-height: 50px;
+}
+.rating{
+    color: black; font-family: 'Lato', sans-serif; 
+    font-size: 30px;
+    font-weight:
+    300; line-height: 
+    58px; 
+    margin-left: 15px;
+}
